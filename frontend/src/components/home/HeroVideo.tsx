@@ -29,10 +29,7 @@ const HeroVideo = () => {
           onLoadedData={() => setIsVideoLoaded(true)}
         >
           <source src="sch.mp4" type="video/mp4" />
-          <source
-            src="https://assets.mixkit.co/videos/preview/mixkit-students-walking-through-a-university-campus-4908-large.webm"
-            type="video/webm"
-          />
+          <source src="video/webm" type="video/webm" />
         </video>
 
         {/* Premium Gradient Overlay */}
