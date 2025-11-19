@@ -29,7 +29,7 @@ const Contact = () => {
     setResponseMsg("");
 
     try {
-      const response = await fetch("https://school-ncd0.onrender.com/api/contact", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
