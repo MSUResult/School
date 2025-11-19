@@ -11,7 +11,10 @@ app.use(express.json());
 // FIX 1: Configure CORS to only allow your Vercel Frontend
 app.use(
   cors({
-    origin: ["https://school-tau-ruddy.vercel.app"],
+    origin: [
+  "http://localhost:5173",
+  "https://school-tau-ruddy.vercel.app",
+],
     methods: ["POST", "GET"],
     credentials: true,
   })
