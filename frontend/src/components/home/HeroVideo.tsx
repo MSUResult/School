@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ChevronDown, Play, Pause } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroPoster from "@/assets/hero-poster.jpg";
+import heroPoster from "/use.jpg";
 import schoolLogo from "@/assets/school-logo.png";
 
 const HeroVideo = () => {
