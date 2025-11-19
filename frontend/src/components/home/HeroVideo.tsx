@@ -29,7 +29,7 @@ const HeroVideo = () => {
           onLoadedData={() => setIsVideoLoaded(true)}
         >
           <source src="sch.mp4" type="video/mp4" />
-          <source src="video/webm" type="video/webm" />
+          <source src="sch.mp4" type="video/mp4" />
         </video>
 
         {/* Premium Gradient Overlay */}
