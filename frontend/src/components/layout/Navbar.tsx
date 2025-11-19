@@ -125,13 +125,13 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         <div className="lg:hidden flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <img src={schoolLogo} alt="School Logo" className="h-11 w-11" />
+            <img src={"/ILIKE.png"} alt="School Logo" className="h-11 w-11" />
             <span
               className={`font-bold text-lg transition-colors ${
                 isScrolled ? "text-primary" : "text-white"
               }`}
             >
-              Academy
+              Asha Modern School
             </span>
           </Link>
 
